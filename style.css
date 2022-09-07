@@ -1,14 +1,33 @@
 body {
+    background-image:url(https://wallpapercave.com/wp/wp4575207.jpg);
+    background-size: 200vh;
+    background-repeat: no-repeat;
+     ;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 main#container {
+    background-color:black;
+    padding: 20px 30px;
+    border: 10px  #413577ff solid;
 }
 
 h1.titulo {
+   color:  #DDB2E6ff;
+   font-family: 'Tiro Bangla', serif;
+   text-shadow: 0.5em 0.5em 0.11em #413577ff;
 }
 
 p.frase {
+    font-family: 'Fredoka One', cursive;
+    color: white
 }
 
+
 p.autor {
+    font-family: 'Yeseva One', cursive;
+    color: #B17CD1ff;
 }
